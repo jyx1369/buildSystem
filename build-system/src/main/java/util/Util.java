@@ -25,8 +25,9 @@ public class Util {
     public static String DX_PATH;
     public static String ANDROID_CP;
     public static String ZIPALIGN_PATH;
+
     static {
-        ProcessBuilder builder =new ProcessBuilder("/bin/bash", "-c", "ls $ANDROID_HOME/platforms | sort -n | tail -1");
+        ProcessBuilder builder = new ProcessBuilder("/bin/bash", "-c", "ls $ANDROID_HOME/platforms | sort -n | tail -1");
         try {
             Process process = builder.start();
             if (process.waitFor() != 0) {
@@ -43,7 +44,7 @@ public class Util {
 
             AAPT_PATH = ANDROID_HOME + "/build-tools/" + ANDROID_BUILD_TOOLS_VERSION + "/aapt";
             DX_PATH = ANDROID_HOME + "/build-tools/" + ANDROID_BUILD_TOOLS_VERSION + "/dx";
-            ANDROID_CP = ANDROID_HOME + "/platforms/"+ ANDROID_PLATFORMS_VERSION + "/android.jar";
+            ANDROID_CP = ANDROID_HOME + "/platforms/" + ANDROID_PLATFORMS_VERSION + "/android.jar";
             ZIPALIGN_PATH = ANDROID_HOME + "/build-tools/" + ANDROID_BUILD_TOOLS_VERSION + "/zipalign";
         } catch (Exception e) {
             logger.error("Android platforms or build tools version not found");
@@ -51,12 +52,12 @@ public class Util {
         }
     }
 
-    public static String getString(InputStream is) throws IOException{
+    public static String getString(InputStream is) throws IOException {
         Reader reader = new InputStreamReader(is);
         int ch;
         StringBuilder sb = new StringBuilder();
 
-        while ((ch = reader.read()) != -1){
+        while ((ch = reader.read()) != -1) {
             if (ch == '\n') {
                 sb.append(" ");
             } else {

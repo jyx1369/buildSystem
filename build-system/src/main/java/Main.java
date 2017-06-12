@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+
 import org.apache.log4j.Logger;
 import tasks.Task;
 import tasks.TaskParser;
@@ -17,10 +18,10 @@ public class Main {
     private static final String BUILD_FILE_PATH = "/Users/yuxij/Downloads/buildSystem/build-system/build.cfg";
 
     public static void main(String[] args) throws Exception {
-        if (args.length !=  1) {
+        if (args.length != 1) {
             throw new Exception("A build file absolute path is needed. Eg. $build_file_absolute_path/build.cfg");
         }
-        if (ANDROID_HOME == null || ANDROID_HOME.equals("") ) {
+        if (ANDROID_HOME == null || ANDROID_HOME.equals("")) {
             throw new Exception("Please set ANDROID_HOME.");
         }
 
