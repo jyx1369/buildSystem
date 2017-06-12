@@ -1,0 +1,10 @@
+/Users/yuxij/Downloads/buildSystem/build-system/src/main/java/tasks/CommandTask.java
+/Users/yuxij/Downloads/buildSystem/build-system/src/main/java/tasks/LaunchTask.java
+/Users/yuxij/Downloads/buildSystem/build-system/src/main/java/tasks/TaskFactory.java
+/Users/yuxij/Downloads/buildSystem/build-system/src/main/java/util/Util.java
+/Users/yuxij/Downloads/buildSystem/build-system/src/main/java/tasks/Task.java
+/Users/yuxij/Downloads/buildSystem/build-system/src/main/java/exceptions/BuildException.java
+/Users/yuxij/Downloads/buildSystem/build-system/src/main/java/tasks/CompileTask.java
+/Users/yuxij/Downloads/buildSystem/build-system/src/main/java/tasks/PackageTask.java
+/Users/yuxij/Downloads/buildSystem/build-system/src/main/java/tasks/TaskParser.java
+/Users/yuxij/Downloads/buildSystem/build-system/src/main/java/Main.java

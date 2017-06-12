@@ -1,0 +1,11 @@
+util/Util.class
+Main.class
+tasks/TaskFactory.class
+tasks/CompileTask.class
+exceptions/BuildException.class
+tasks/PackageTask.class
+tasks/CommandTask.class
+tasks/LaunchTask.class
+tasks/Task.class
+tasks/TaskParser.class
+Main$1.class
