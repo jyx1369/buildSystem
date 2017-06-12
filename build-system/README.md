@@ -1,4 +1,4 @@
-* Assumption:
+### Assumption:
 1. ANDROID_HOME and JAVA_HOME are defined;
 2. An active simulator is running already.
 2. Android project contains at least these three: src/, res/, AndroidManifest.xml. And we only support Android java
@@ -7,14 +7,14 @@ classes from Android.jar
 4. A build.cfg sample file is already provided inside the project root dir.
 
 
-* How to build:
+### How to build:
 ```
    cd root directory
    java -jar ${build_system_path}/target/build-system-1.0-SNAPSHOT.jar $build_file_absolute_path/build.cfg
 ```
 
 
-* After running the jar, the android project's layout should be:
+### After running the jar, the android project's layout should be:
 ```
 AndroidProject
    src/ 
