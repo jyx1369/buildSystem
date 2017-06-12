@@ -2,12 +2,12 @@ Since `android create project` command is deprecated, I was not able to create t
 
 
 For creating the Android project, run 
-    create_android_project.sh
+    ```sh create_android_project.sh```
 which will create a dir named "AndroidProject", which will have the android project structure, referenced by sample android project AndroidTest.
 
 
 There is also a simple script, which will both create and build the android project. 
-    create_and_build_android_project_sample.sh	
+    ```sh create_and_build_android_project_sample.sh```
 In order for you to use, please change the build.cfg file to your own (absolute path needed), and run this command under buildSystem dir.
 
 
